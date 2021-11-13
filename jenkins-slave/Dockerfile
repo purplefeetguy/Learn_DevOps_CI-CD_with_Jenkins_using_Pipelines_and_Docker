@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM openjdk:8-jdk
 
 # install git, curl, openssh server, and remove host keys
@@ -34,6 +35,8 @@ COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 =======
+=======
+>>>>>>> upstream/master
 FROM openjdk:14-jdk-buster
 
 # install git, curl, openssh server, and remove host keys
